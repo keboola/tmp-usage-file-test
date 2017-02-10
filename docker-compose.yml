@@ -1,0 +1,10 @@
+version: "2"
+
+services:
+
+  app:
+    build: .
+    working_dir: /code
+    volumes:
+      - ./:/code
+    command: bash
