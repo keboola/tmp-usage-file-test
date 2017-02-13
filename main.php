@@ -9,6 +9,10 @@ $fs = new Filesystem();
 $usageFileContent = <<<JSON
 [
     {
+        "metric": "calls",
+        "value": 312
+    },
+    {
         "metric": "words",
         "value": 123
     }
